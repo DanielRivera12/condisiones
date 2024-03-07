@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+     /*int multi = 5*4;
+  cout<<multi<<" ";
+ */
+ 
+ 
+    /*
+   bool prueba = true;
+   bool si = false;
+   cout<<prueba;
+   cout<<si;
+ */
+  
+ /* bool registrado= true;
+  if (registrado ==false){
+      cout<<"Tiene acceso";
+  }
+  else{
+      cout <<"No tiene acceso";
+  }
+ */
+ 
+ 
+ float suma = 10;
+ //quiero saber su es una suma es mayor a 10
+ // validar si es mayor a 10
+ if (suma>10){
+     cout<<"Si es mayor a 10, "<<suma;
+ }
+ //validar si es igual a 10
+ if (suma == 10){
+     cout<<"Es igual a 10";
+ }
+ //validar si es menor a 10
+ if (suma<10){
+     cout<<"Es menor a 10";
+ }
+    return 0;
+}
